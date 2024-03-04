@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="733dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:background="#FFE7C0"
+            android:gravity="center"
+            android:text="Resgatando altura!"
+            android:textColor="#684F1E"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome" />
+
+        <EditText
+            android:id="@+id/editTextIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNome"
+            android:layout_marginTop="16dp"
+            android:inputType="number"
+            android:hint="Idade" />
+
+        <EditText
+            android:id="@+id/editTextAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextIdade"
+            android:layout_marginTop="16dp"
+            android:inputType="numberDecimal"
+            android:hint="Altura (metros)" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextAltura"
+            android:layout_marginTop="16dp"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnRecuperar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSalvar"
+            android:layout_marginTop="16dp"
+            android:text="Recuperar" />
+
+        <TextView
+            android:id="@+id/textViewMaior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnRecuperar"
+            android:layout_marginTop="16dp"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewVerificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnRecuperar"
+            android:layout_marginTop="16dp"
+            android:text=""
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

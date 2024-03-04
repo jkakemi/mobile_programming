@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fruits_array">
+        <item>Abacate</item>
+        <item>Abacaxi</item>
+        <item>Amora</item>
+        <item>Ameixa</item>
+        <item>Cacau</item>
+        <item>Caju</item>
+        <item>Cajá</item>
+        <item>Jaca</item>
+        <item>Banana</item>
+        <item>Kiwi</item>
+    </string-array>
+</resources>
